@@ -1,0 +1,35 @@
+.Fixed{
+  .AiOutlineArrowUp{
+  position: fixed;
+  bottom: 50px;
+  left:50px;
+  width: 50px;
+  height: 50px;
+  border-radius:50%;
+  color:var(--main-color);
+  background-color: var(--second-color);
+  padding: 10px;
+  transition:all .5s;
+  &:hover{
+    color:var(--second-color);
+    background-color:var(--main-color);
+        
+  }  
+}
+  .HiChatAlt2{
+    position: fixed;
+    bottom: 50px;
+    right:50px;
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+    color:var(--main-color);
+    background-color: var(--second-color);
+    padding: 10px;
+    transition:all .5s;
+    &:hover{
+      color:var(--second-color);
+      background-color:var(--main-color);
+    }  
+    }
+}

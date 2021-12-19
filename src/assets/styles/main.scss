@@ -1,0 +1,44 @@
+@import "./media.mixins";
+
+$main-color: #9458ab;
+$second-color: #fdb515;
+body {
+  font-family: "Cairo", sans-serif;
+}
+/* globals */
+ul,
+li {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.button:active,
+.btn:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
+/* media queries*/
+@include mobile-xs {
+  :root {
+    font-size: 12px;
+  }
+}
+/* main colors */
+.main-bg {
+  background-color: #9458ab;
+}
+.main-color {
+  color: #9458ab;
+}
+/* .yellow-bg {
+  background: #fdb515;
+} */
+
+.second-bg {
+  background-color: #fdb515;
+}
+.main-color {
+  color: #fdb515;
+}
+

@@ -1,0 +1,25 @@
+.Categories{
+.Categories-cot{
+    height: 500px;
+    width: 100%;   
+   background-image: url('../../assets/images/Dot-Pattern.png'),
+   url('../../assets/images/yellow-ellipse.png');
+   background-position: top left,bottom right;
+   background-repeat: no-repeat;
+   
+.Categories-video{
+ position: relative;
+ background-color: aqua;
+ width: 100%;
+ iframe{
+  padding-top:50px;
+  position: absolute;   
+  height: 400px;
+  display: inline-block;
+  width: 95%;
+  margin:0 auto;
+  border-radius: 40px;
+ }
+}
+}
+}

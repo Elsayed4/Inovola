@@ -1,0 +1,36 @@
+header{
+
+.navbar-nav{
+
+ .nav-item{
+  margin-right: 50px;
+ .nav-link{
+    font-weight: 600;
+    font-size: 18px;
+  
+ }
+}
+ }
+ .header-content{
+   h2{
+       color:var(--main-color);
+   }
+   p{
+       font-size:18px;
+       max-width: 50%;
+       margin: 0 auto;
+       line-height: 34px;
+       font-weight: 400;
+   }
+   a{
+    background-color: var(--main-color);
+    padding: 10px 60px;
+    border-radius: 10px;
+    color: #FDB515;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 34px;
+}
+
+}
+}

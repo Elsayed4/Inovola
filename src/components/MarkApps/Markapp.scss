@@ -1,0 +1,15 @@
+.Markapp{
+  padding: 70px 0;
+ .card{
+     background-color: #F7F7F7;
+     border-color:transparent;
+     border-radius: 14px;
+  .card-title{
+    color:var(--main-color);
+  }  
+  }
+  a{
+      color: var(--second-color);
+      font-weight: 500;;
+  }
+}
